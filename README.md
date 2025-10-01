@@ -1,17 +1,16 @@
-<h1 align="center">JellyFin HarmonyOS</h1>
+<h1 align="center">MediaFlow HarmonyOS</h1>
 <h3 align="center">Unofficial client of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
 
 ---
 
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"/>
 <br/>
 <br/>
 <a href="https://github.com/chashaochang/JellyFin_HarmonyOS">
 <img alt="GPL 2.0 License" src="https://img.shields.io/github/license/jellyfin/jellyfin-android.svg"/>
 </a>
 
-Jellyfin_HarmonyOS is a HarmonyOS Application that connects to a Jellyfin instance and integrates with the official web client. The specific functionality is implemented with reference to the Android open source code.
+MediaFlow_HarmonyOS is a HarmonyOS Application that connects to a Jellyfin instance and integrates with the official web client. The specific functionality is implemented with reference to the Android open source code.
 
 ## A few words
 I wrote this for learning purposes, to improve my HarmonyOS development skills, to make HarmonyOS software accessible to niche users, and to contribute to the development of the HarmonyOS ecosystem.
