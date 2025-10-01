@@ -58,7 +58,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Connect to Server | Existing Server | Playback Control |
 |:------------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------:|
-|  | <img src="screenshots/findserver.jpg" width="200" alt="Existing Server"> | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
+|  |  | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
 
 | Video Playback (Vertical) | Video Playback (Horizontal) |
 |:------------------------------------------------------------:|:-------------------------------------------------------------:|
@@ -70,7 +70,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | PC Playback Window | PC Plays Full Screen |
 |:-----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="screenshots/pc_chuangkou.png" width="400" alt="Video Plays Vertically"> | <img src="screenshots/pc_quanping.png" width="400" alt="Video Plays Horizontally"> |
+|  | <img src="screenshots/pc_quanping.png" width="400" alt="Video Plays Horizontally"> |
 
 | Xiaoya Homepage | Xiaoya Video Plays Horizontally |
 |:-----------------------------------------------------------:|:----------------------------------------------------------------:|
