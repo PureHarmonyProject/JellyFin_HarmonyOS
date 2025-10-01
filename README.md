@@ -66,7 +66,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Tablet Homepage (Horizontal) | Tablet Playback Column |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| | <img src="screenshots/pad_fenlan.png" width="400" alt="Video Playback (Horizontal)"> |
+| |  |
 
 | PC Playback Window | PC Plays Full Screen |
 |:-----------------------------------------------------------------:|:----------------------------------------------------------------:|
