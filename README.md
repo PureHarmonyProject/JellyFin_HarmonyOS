@@ -11,89 +11,89 @@
 <img alt="GPL 2.0 License" src="https://img.shields.io/github/license/jellyfin/jellyfin-android.svg"/>
 </a>
 
-Jellyfin_HarmonyOS 是一款 HarmonyOS 应用，可连接到 Jellyfin 实例并与官方 Web 客户端集成。具体功能实现参考了安卓端开源代码
+Jellyfin_HarmonyOS is a HarmonyOS Application that connects to a Jellyfin instance and integrates with the official web client. The specific functionality is implemented with reference to the Android open source code.
 
-## 简单说两句
-写这个东西是出于学习的目的,为了提高自己的鸿蒙开发能力,为了小众圈子能用上鸿蒙版的软件,也为了促进鸿蒙生态发展出一份力.
+## A few words
+I wrote this for learning purposes, to improve my HarmonyOS development skills, to make HarmonyOS software accessible to niche users, and to contribute to the development of the HarmonyOS ecosystem.
 
-PS:闲暇时间写的,禁止催更!
+PS: I wrote this in my free time, so please don't rush me!
 
-## 进度
-由于本人对项目不太了解,具体都有什么功能也说不准,并且没开发过音视频类,大概率会有很多bug
+## Progress
+Since I'm not familiar with the project, I can't say for sure what specific features it will have, and I've never developed audio or video, so there will likely be many bugs.
 
-### 已完成
+### Completed
 
-- 连接到服务器
-- 切换服务器
-- 发现本地设备
-- 简单的播放
-- 记录播放进度
-- 支持ass/srt字幕
-- 播放器控制(音量,亮度,进度)
-- 倍速
-- 播放默认选中的音轨/字幕
-- 下一集
-- 通知栏播放卡片(AVSession播控)
-- 切换音轨
-- 切换字幕
-- 切换清晰度
-- 全屏锁
-- 投屏(AVCast)
-- 选集
-- 视频信息
-- 长按三倍速
-- 平板/pc适配
-- 支持小雅JellyFin(目前可以正常登录加载,支持http://xiaoya.host资源的播放,外网域名需要映射和内网一样的端口,有的视频因jellyfin版本太老取不到地址还在研究)
+- Connecting to a server
+- Switching servers
+- Discovering local devices
+- Simple playback
+- Recording playback progress
+- Supporting ASS/SRT subtitles
+- Player controls (volume, brightness, progress)
+- Speed ​​control
+- Playing the default audio/subtitle track
+- Next episode
+- Play card in the notification bar (AVSession playback control)
+- Switching audio tracks
+- Switching subtitles
+- Switching resolution
+- Fullscreen lock
+- Casting (AVCast)
+- Selecting episodes
+- Video information
+- Long press for triple speed
+- Tablet/PC compatibility
+- Support for JellyFin (currently works properly when logging in and loading, supports playback of resources from http://xiaoya.host. The external domain name needs to be mapped to the same port as the internal network. Some videos cannot be accessed due to an outdated JellyFin version and are still under investigation.)
 
-### 未完成/规划中
+### Unfinished/Planning
 
-#### 待排期
-- 画中画(字幕外挂问题需要解决)
-- 下载
-- 设置
-- 更多字幕支持
+#### To be scheduled
+- Picture-in-Picture (subtitle plugin issue needs to be resolved)
+- Download
+- Settings
+- More subtitle support
 - ...
 
-🧬 效果图
+🧬 Rendering
 ------------
 
-|                            连接到服务器                            |                              现有服务器                              |                              播控                               |
+| Connect to Server | Existing Server | Playback Control |
 |:------------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------:|
-| <img src="screenshots/connect.jpg" width="200" alt="连接到服务器"> | <img src="screenshots/findserver.jpg" width="200" alt="现有服务器"> | <img src="screenshots/avsession.jpg" width="200" alt="播控"> |
+| <img src="screenshots/connect.jpg" width="200" alt="Connect to Server"> | <img src="screenshots/findserver.jpg" width="200" alt="Existing Server"> | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
 
-|                            视频播放竖屏                            |                            视频播放横屏                             |
+| Video Playback (Vertical) | Video Playback (Horizontal) |
 |:------------------------------------------------------------:|:-------------------------------------------------------------:|
-| <img src="screenshots/shuping.jpg" width="200" alt="视频播放竖屏"> | <img src="screenshots/hengping.jpg" width="400" alt="视频播放横屏"> |
+| <img src="screenshots/shuping.jpg" width="200" alt="Video Playback (Vertical)"> | <img src="screenshots/hengping.jpg" width="400" alt="Video Playback (Horizontal)"> |
 
-|                             平板首页横屏                              |                             平板播放分栏                              |
+| Tablet Homepage (Horizontal) | Tablet Playback Column |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| <img src="screenshots/pad_shouye.png" width="400" alt="视频播放竖屏"> | <img src="screenshots/pad_fenlan.png" width="400" alt="视频播放横屏"> |
+| <img src="screenshots/pad_shouye.png" width="400" alt="Video Playback (Vertical)"> | <img src="screenshots/pad_fenlan.png" width="400" alt="Video Playback (Horizontal)"> |
 
-|                              PC播放窗口                               |                              PC播放全屏                              |
+| PC Playback Window | PC Plays Full Screen |
 |:-----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="screenshots/pc_chuangkou.png" width="400" alt="视频播放竖屏"> | <img src="screenshots/pc_quanping.png" width="400" alt="视频播放横屏"> |
+| <img src="screenshots/pc_chuangkou.png" width="400" alt="Video Plays Vertically"> | <img src="screenshots/pc_quanping.png" width="400" alt="Video Plays Horizontally"> |
 
-|                            小雅首页                             |                             小雅视频播放横屏                             |
+| Xiaoya Homepage | Xiaoya Video Plays Horizontally |
 |:-----------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="screenshots/xiaoya.jpg" width="200" alt="小雅首页"> | <img src="screenshots/xiaoya_play.jpg" width="400" alt="视频播放横屏"> |
+| <img src="screenshots/xiaoya.jpg" width="200" alt="Xiaoya Homepage"> | <img src="screenshots/xiaoya_play.jpg" width="400" alt="Video Plays Horizontally"> |
 
-## 代码相关
+## Code Related
 
-- 服务器相关操作,把Jellyfin的<a href="https://github.com/jellyfin/jellyfin-sdk-typescript">TypeScript SDK</a>进行鸿蒙化后使用
-- 播放器经过尝试后采用<a href="https://ohpm.openharmony.cn/#/cn/detail/@ohos%2Fijkplayer">ijkPlayer</a>
-- 播放控制页基于开源库<a href="https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/GSYVideoPlayer">GSYVideoPlayer</a>修改
-- 弹窗使用<a href="https://github.com/xdd666t/ohos_smart_dialog">ohos_smart_dialog</a>
+- Server-related operations, convert Jellyfin's <a href="https://github.com/jellyfin/jellyfin-sdk-typescript">TypeScript The SDK was ported to HarmonyOS for use.
+- After trial use, the player adopted <a href="https://ohpm.openharmony.cn/#/cn/detail/@ohos%2Fijkplayer">ijkPlayer</a>
+- The playback control page is modified based on the open source library <a href="https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/GSYVideoPlayer">GSYVideoPlayer</a>
+- The pop-up window uses <a href="https://github.com/xdd666t/ohos_smart_dialog">ohos_smart_dialog</a>
 
-感谢开源大佬们的无私奉献!
+Thanks to the open source community for their selfless contributions!
 
-## 打赏
+## Tips
 
-|                                                         |                                                    |
+| | |
 |:-------------------------------------------------------:|:--------------------------------------------------:|
 | <img src="screenshots/shoukuan.jpg" width="200" alt=""> | <img src="screenshots/v50.jpg" width="200" alt=""> |
 
-- 如果你觉得这个项目帮助到了你，你可以V作者50请他吃顿KFC
+- If you feel this project has helped you, you can V the author 50 and treat him to a KFC meal.
 
-## 联系方式
+## Contact Information
 
-- QQ群:991893385
+- QQ Group: 991893385
