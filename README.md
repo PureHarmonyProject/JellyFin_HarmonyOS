@@ -1,5 +1,5 @@
 <h1 align="center">JellyFin HarmonyOS</h1>
-<h3 align="center">Unofficial client of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
+<h3 align="center">Official client of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
 
 ---
 
