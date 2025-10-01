@@ -58,7 +58,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Connect to Server | Existing Server | Playback Control |
 |:------------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------:|
-| <img src="screenshots/connect.jpg" width="200" alt="Connect to Server"> | <img src="screenshots/findserver.jpg" width="200" alt="Existing Server"> | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
+|  | <img src="screenshots/findserver.jpg" width="200" alt="Existing Server"> | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
 
 | Video Playback (Vertical) | Video Playback (Horizontal) |
 |:------------------------------------------------------------:|:-------------------------------------------------------------:|
