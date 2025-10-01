@@ -1,5 +1,8 @@
 <h1 align="center">MediaFlow HarmonyOS</h1>
 <h3 align="center">Unofficial client of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
+<p align="center">
+<br/>
+<br/>
 <img width="252" height="72" alt="resizecom_mediaflow" src="https://github.com/user-attachments/assets/349aa3c2-1a89-486c-8e50-03a562a77e3f" />
 
 ---
