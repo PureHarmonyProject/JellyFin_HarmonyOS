@@ -58,7 +58,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Connect to Server | Existing Server | Playback Control |
 |:------------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------:|
-|  |  | <img src="screenshots/avsession.jpg" width="200" alt="Playback Control"> |
+|  |  |  |
 
 | Video Playback (Vertical) | Video Playback (Horizontal) |
 |:------------------------------------------------------------:|:-------------------------------------------------------------:|
@@ -66,7 +66,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Tablet Homepage (Horizontal) | Tablet Playback Column |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| <img src="screenshots/pad_shouye.png" width="400" alt="Video Playback (Vertical)"> | <img src="screenshots/pad_fenlan.png" width="400" alt="Video Playback (Horizontal)"> |
+| | <img src="screenshots/pad_fenlan.png" width="400" alt="Video Playback (Horizontal)"> |
 
 | PC Playback Window | PC Plays Full Screen |
 |:-----------------------------------------------------------------:|:----------------------------------------------------------------:|
