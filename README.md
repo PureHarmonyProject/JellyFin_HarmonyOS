@@ -62,7 +62,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Video Playback (Vertical) | Video Playback (Horizontal) |
 |:------------------------------------------------------------:|:-------------------------------------------------------------:|
-| <img src="screenshots/shuping.jpg" width="200" alt="Video Playback (Vertical)"> | <img src="screenshots/hengping.jpg" width="400" alt="Video Playback (Horizontal)"> |
+| | <img src="screenshots/hengping.jpg" width="400" alt="Video Playback (Horizontal)"> |
 
 | Tablet Homepage (Horizontal) | Tablet Playback Column |
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|
@@ -74,7 +74,7 @@ Since I'm not familiar with the project, I can't say for sure what specific feat
 
 | Xiaoya Homepage | Xiaoya Video Plays Horizontally |
 |:-----------------------------------------------------------:|:----------------------------------------------------------------:|
-| <img src="screenshots/xiaoya.jpg" width="200" alt="Xiaoya Homepage"> | <img src="screenshots/xiaoya_play.jpg" width="400" alt="Video Plays Horizontally"> |
+|  | <img src="screenshots/xiaoya_play.jpg" width="400" alt="Video Plays Horizontally"> |
 
 ## Code Related
 
